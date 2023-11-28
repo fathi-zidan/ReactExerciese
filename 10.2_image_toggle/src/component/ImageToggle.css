@@ -1,0 +1,11 @@
+.Image-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.im{
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    margin-left: 10px;
+}
