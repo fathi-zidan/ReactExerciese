@@ -14,6 +14,7 @@ export default function ImageToggle() {
         img.current.src = img.current.dataset.black;
     }
     console.log(image1Ref.current?.dataset);
+    console.log(image1Ref);
 
     return (
         <div className='Image-container'>
@@ -31,9 +32,9 @@ export default function ImageToggle() {
                 className='im'
                 ref={image2Ref}
                 src='/p2-modified.png'
-                alt='Mario'
+                alt='flower'
                 data-color='/p2.png'
-                data-black='/p1-modified.png'
+                data-black='/p2-modified.png'
                 onMouseEnter={() => handleMouseEnter(image2Ref)}
                 onMouseLeave={() => handleMouseLeave(image2Ref)}
             />

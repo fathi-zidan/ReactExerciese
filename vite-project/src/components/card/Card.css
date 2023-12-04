@@ -1,0 +1,26 @@
+.cardContainer {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    gap: 3px;
+    background-color: blue;
+    border: 2px solid blue;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 255, 0.292);
+    width: 300px;
+    height: 200px;
+    transition: all linear .6s;
+}
+.card:hover{
+    transform: scale(1.04) ;
+}
