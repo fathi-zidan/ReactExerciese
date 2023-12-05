@@ -1,0 +1,16 @@
+.homePage-day{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgray;
+    color: black;
+    height: 100%;
+}
+.homePage-dark{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #333;
+    color: orange;
+    height: 100%;
+}
