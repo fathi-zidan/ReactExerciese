@@ -1,0 +1,11 @@
+.input-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+}
+.input-container input{
+    width: 30px;
+    height: 30px;
+    
+}

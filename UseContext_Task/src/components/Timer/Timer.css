@@ -1,0 +1,17 @@
+.timer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.timer input{
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+}
+.timer .cc-input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+}
