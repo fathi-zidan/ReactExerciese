@@ -21,13 +21,8 @@ const ProductInfo = () => {
                 {product.title}
                 
             </div>
-            
+ 
         ) */}
-
-
-
-
-
             </div>
         </section>
     )

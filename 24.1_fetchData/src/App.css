@@ -1,0 +1,26 @@
+
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+}
+.app-container{
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+  gap: 1em;
+  
+}
+.sec1{
+  max-width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+
